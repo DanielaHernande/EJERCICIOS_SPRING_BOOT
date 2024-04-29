@@ -22,7 +22,7 @@ public class Appointment {
     
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int appointment_id;
+    private Long appointment_id;
 
     @Column(columnDefinition = "DATETIME")
     private LocalDateTime date_time;
