@@ -21,7 +21,7 @@ public class AppointmentResponse {
     private String comments;
 
     // Clientes
-    private Client client;
+    private ClientToResponse client;
 
     // Empleados
     private Employee employee;
