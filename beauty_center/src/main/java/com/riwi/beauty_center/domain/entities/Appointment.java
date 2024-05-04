@@ -45,5 +45,5 @@ public class Appointment {
     // Servicios
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "service_id", referencedColumnName = "service_id")
-    private Service service;
+    private Servicio service;
 }

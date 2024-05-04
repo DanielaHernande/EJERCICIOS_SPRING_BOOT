@@ -5,4 +5,5 @@ import com.riwi.beauty_center.api.dto.response.AppointmentResponse;
 
 public interface IAppointmentService  extends  CrudService<AppointmentRequest, AppointmentResponse, Long>{
 
+    
 }

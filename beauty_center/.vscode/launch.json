@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-BeautyCenterApplication<beauty_center>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.riwi.beauty_center.BeautyCenterApplication",
+            "projectName": "beauty_center",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

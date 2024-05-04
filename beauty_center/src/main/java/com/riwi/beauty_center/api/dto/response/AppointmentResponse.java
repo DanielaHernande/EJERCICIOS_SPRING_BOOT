@@ -1,16 +1,14 @@
 package com.riwi.beauty_center.api.dto.response;
 
-import com.riwi.beauty_center.domain.entities.Client;
-import com.riwi.beauty_center.domain.entities.Employee;
-import com.riwi.beauty_center.domain.entities.Service;
-import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.time.LocalDateTime;
 
 @Data
+@Builder
 @NoArgsConstructor
 @AllArgsConstructor
 public class AppointmentResponse {
@@ -24,8 +22,8 @@ public class AppointmentResponse {
     private ClientToResponse client;
 
     // Empleados
-    private Employee employee;
+    private EmployeeToResponse employee;
 
     // Servicios
-    private Service service;
+    private ServiceToResponse service;
 }

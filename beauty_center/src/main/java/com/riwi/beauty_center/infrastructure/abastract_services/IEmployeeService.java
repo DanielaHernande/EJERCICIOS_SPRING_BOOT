@@ -4,4 +4,6 @@ import com.riwi.beauty_center.api.dto.request.EmployeeRequest;
 import com.riwi.beauty_center.api.dto.response.EmployeeResponse;
 
 public interface IEmployeeService extends CrudService<EmployeeRequest, EmployeeResponse, Long>{
+
+    public EmployeeResponse getById(Long id);
 }

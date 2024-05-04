@@ -1,12 +1,14 @@
 package com.riwi.beauty_center.api.dto.response;
 
-import com.riwi.beauty_center.domain.entities.Appointment;
-import jakarta.persistence.*;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.util.List;
 
 @Data
+@Builder
 @NoArgsConstructor
 @AllArgsConstructor
 public class ServiceResponse {
@@ -16,5 +18,5 @@ public class ServiceResponse {
     private String description;
     private double price;
 
-    private List<Appointment> appointment;
+    private List<AppointmentToResponse> appointment;
 }
